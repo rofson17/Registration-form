@@ -1,0 +1,41 @@
+/* google fonts Oxygen */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.bg_white{
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+}
+
+.btn_registar{
+  border-radius: 1rem !important;
+  width: 50% !important;
+}
+
+ .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
